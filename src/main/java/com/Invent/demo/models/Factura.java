@@ -34,6 +34,10 @@ public class Factura {
 		this.precio = precio;
 	}
 	
+	public Factura() {
+		
+	}
+	
 	public Factura(int usuario, int cliente, Date fecha, double precio) {
 		super();
 		this.usuario = usuario;

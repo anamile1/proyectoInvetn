@@ -12,6 +12,10 @@ public class Categoria {
 		this.nombre = nombre;
 	}
 	
+	public Categoria() {
+		
+	}
+	
 	public Categoria(String nombre) {
 		super();
 		this.nombre = nombre;

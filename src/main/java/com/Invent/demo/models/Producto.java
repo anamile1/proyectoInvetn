@@ -33,6 +33,10 @@ public class Producto {
 		this.cantidad = cantidad;
 	}
 	
+	public Producto() {
+		
+	}
+	
 	public Producto(int categoria, String nombre, double precio, int cantidad) {
 		super();
 		this.categoria = categoria;

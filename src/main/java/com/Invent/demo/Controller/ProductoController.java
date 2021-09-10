@@ -8,11 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 	
 	@Controller
 	@RequestMapping("/app")
-	public class IndexController {
-		@GetMapping({"/home","/","/index"})
-		public String index(Model model) {
-				model.addAttribute("titulo", "Aprendiendo Spring ADSI");
-				return "index";
+	public class ProductoController {
+		@GetMapping({"/producto"})
+		public String producto() {
+			return "producto";
 			}
 
 }

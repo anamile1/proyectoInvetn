@@ -39,6 +39,10 @@ public class DetallesFac {
 		this.cantidad = cantidad;
 	} 
 	
+	public DetallesFac() {
+		
+	}
+	
 	public DetallesFac(int factura, int producto, double precio_Uni, double iva, int cantidad) {
 		super();
 		this.factura = factura;

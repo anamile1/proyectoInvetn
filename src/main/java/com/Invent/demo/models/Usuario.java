@@ -17,6 +17,10 @@ public class Usuario {
 		public void setClave(String clave) {
 			this.clave = clave;
 		}
+		
+		public Usuario() {
+			
+		}
 
 		public Usuario(String usuario, String clave) {
 			super();

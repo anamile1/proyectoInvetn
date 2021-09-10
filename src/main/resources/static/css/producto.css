@@ -1,0 +1,45 @@
+.icono {
+  width: 95px;
+  height: 100px;
+}
+
+h5 {
+  font-size: 1.25rem;
+  margin-left: 1em;
+}
+
+.container {
+  width: 1em;
+  border: rgb(13, 119, 219) solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25em;
+}
+.h1 {
+  margin-top: revert;
+}
+.fieldset {
+  width: 27em;
+  margin-top: 3em;
+}
+.select {
+  width: 12em;
+  height: 2em;
+}
+input {
+  margin-left: 65px;
+  width: 12em;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  width: 10em;
+}
+.label-categoria {
+  margin-left: 37px;
+}
+.btn-guardar {
+  margin-top: 2em;
+}
